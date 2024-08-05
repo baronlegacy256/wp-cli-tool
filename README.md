@@ -1,6 +1,6 @@
 # WP-CLI Tool
 
-![Node.js](https://img.shields.io/badge/node.js-%23339933?style=for-the-badge&logo=node.js&logoColor=white) ![License](https://img.shields.io/github/license/yourusername/wp-cli-tool?style=for-the-badge) ![npm](https://img.shields.io/npm/v/wp-cli-tool?style=for-the-badge)
+![Node.js](https://img.shields.io/badge/node.js-%23339933?style=for-the-badge&logo=node.js&logoColor=white) ![License](https://img.shields.io/github/license/baronleacy256/wp-cli-tool?style=for-the-badge) ![npm](https://img.shields.io/npm/v/wp-cli-tool?style=for-the-badge)
 
 ## Overview
 
