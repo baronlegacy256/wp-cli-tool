@@ -47,18 +47,18 @@ Before using this CLI tool, ensure you have the following installed:
 
 To install and set up the WP-CLI Tool, follow these steps:
 
-1. **Clone the Repository:**
+1. **Clone the Repository**
 
    ```bash
    git clone https://github.com/yourusername/wp-cli-tool.git
    cd wp-cli-tool
    
-2. **Install Dependencies::**
+2. **Install Dependencies**
 
    ```bash
    npm install
    
-3. **Link the CLI Tool Globally:::**
+3. **Link the CLI Tool Globally**
 
    ```bash
    npm link
@@ -66,19 +66,45 @@ To install and set up the WP-CLI Tool, follow these steps:
 ## Usage
 This section provides detailed instructions on how to use each command available in the WP-CLI Tool.
 
-  **Create a WordPress Site:**
+**Create a WordPress Site:**
 
-   ```bash
-   wpcli create
-   
- **Start XAMPP Services**
+     ```bash
+     wpcli create
 
-   ```bash
-   wpcli start
-   
-3. **Stop XAMPP Services**
+**List Existing WordPress Sites**
+      ```bash
+      wpcli list
+**Start XAMPP Services**
+      ```bash
+      wpcli start
+**Stop XAMPP Services**
+    ```bash
+      wpcli stop
+**Backup a WordPress Site**
+    ```bash
+      wpcli backup
+**Delete a WordPress Site**
+    ```bash
+          wpcli delete
 
-   ```bash
-   wpcli stop
 
+## Customization
+The WP-CLI Tool is designed to be flexible and customizable. Here are some ways you can modify the tool to suit your needs:
+
+    - Change Default Paths: Modify the htdocsPath in the command files to match your local XAMPP installation path.
+    - Add Custom Commands: Create new command files in the src/commands/ directory and register them in bin/wpcli.js.
+    - Update Database Configuration: Adjust dbConfig in src/utils/db.js to use different database credentials.
+
+## Troubleshooting
+    - Permission Issues: If you encounter permission issues when running commands, try using sudo (Linux/Mac) or ensure you have the necessary permissions     (Windows).
+    - Path Adjustments: Ensure that the paths in the code (e.g., htdocsPath) are correct for your system. Adjust them if necessary.
+    - WP-CLI Not Found: Make sure WP-CLI is installed globally and is accessible from your terminal. Refer to the WP-CLI installation guide for more details.
+    -XAMPP Commands Not Executing: Ensure that XAMPP is installed correctly, and the paths in src/utils/xampp.js are accurate for your XAMPP installation.
+
+## Contributing
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on GitHub.
+
+
+
+    
 
