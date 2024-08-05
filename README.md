@@ -52,4 +52,33 @@ To install and set up the WP-CLI Tool, follow these steps:
    ```bash
    git clone https://github.com/yourusername/wp-cli-tool.git
    cd wp-cli-tool
+   
+2. **Install Dependencies::**
+
+   ```bash
+   npm install
+   
+3. **Link the CLI Tool Globally:::**
+
+   ```bash
+   npm link
+
+## Usage
+This section provides detailed instructions on how to use each command available in the WP-CLI Tool.
+
+  **Create a WordPress Site:**
+
+   ```bash
+   wpcli create
+   
+ **Start XAMPP Services**
+
+   ```bash
+   wpcli start
+   
+3. **Stop XAMPP Services**
+
+   ```bash
+   wpcli stop
+
 
